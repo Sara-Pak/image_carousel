@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang ="en">
+<head>
+    <meta charset = "utf-8">
+    <meta http-equiv = "x-ua-compatible" content = "ie=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap">
+    <link rel = "stylesheet" href = "carousel_stylesheet.css">
+    <title>Responsive image carousel with Javascript</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+          <div class="image fade">
+          <img src="sofieHowl.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl2.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl3.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl4.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl5.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl6.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl7.jpg" alt="image" width="100%">
+          </div>
+          <div class="image fade">
+            <img src="sofieHowl8.jpg" alt="image" width="100%">
+          </div>
+
+          <i id = "prev" onclick ="show_image(-1)" class ="fa-regular fa-circle-arrow-left"></i>
+          <i id = "next" onclick ="show_image(1)" class="fa-regular fa-circle-arrow-right"></i>
+        
+          <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </main>
+    <script src="carousel.js"></script>
+</body>
+</html>
